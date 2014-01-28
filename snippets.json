@@ -1,0 +1,9 @@
+{
+	"html": {
+		"filters": "html, bem",
+		"snippets": {
+			"clb": " name=\"clb${cursor}\"",
+			"cls": "<%- @h.cls ${cursor} %>"
+		}
+	}
+}

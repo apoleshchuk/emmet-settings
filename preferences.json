@@ -1,0 +1,4 @@
+{
+	"css.gradient.fallback": true,
+	"css.autoInsertVendorPrefixes": false
+}
