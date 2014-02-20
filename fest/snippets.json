@@ -1,0 +1,45 @@
+{
+	"xml": {
+		"snippets": {
+			"cdata": "<fest:cdata>\n\t<![CDATA[|]]>\n</fest:cdata>",
+			"script": "<fest:script>\n\t<![CDATA[\n\t\t|\n\t]]>\n</fest:script>",
+			"params": "<fest:params>\n\t{\n\t\t|\n\t}\n</fest:params>",
+		},
+		"abbreviations": {
+			"val": "<fest:value>",
+			"valo": "<fest:value output=\"${1:text}\">",
+			"var": "<fest:var name=\"\">",
+			"vars": "<fest:var name=\"\" select=\"\" />",
+			"text": "<fest:text>",
+			"space": "<fest:space />",
+			"set": "<fest:set name=\"\">",
+			"sett": "<fest:set name=\"\" test=\"${1:false}\">",
+			"get": "<fest:get name=\"\">",
+			"gets": "<fest:get select=\"\">",
+			"param": "<fest:param name=\"\">",
+			"elem": "<fest:elemen name=\"\">",
+			"elems": "<fest:elemen select=\"\">",
+			"attrs": "<fest:attributes>",
+			"attr": "<fest:attribute name=\"\">",
+			"attrv": "<fest:attribute name=\"\" value=\"\">",
+			"each": "<fest:each iterate=\"\" index=\"${i}\">",
+			"eachv": "<fest:each iterate=\"\" index=\"${i}\" value=\"${item}\">",
+			"for": "<fest:for iterate=\"\" index=\"${i}\">",
+			"forv": "<fest:for iterate=\"\" index=\"${i}\" value=\"${item}\">",
+			"fort": "<fest:for from=\"\" to=\"\" index=\"${i}\">",
+			"if": "<fest:if test=\"\">",
+			"choose": "<fest:choose>",
+			"when": "<fest:when test=\"\">",
+			"otherwise": "<fest:otherwise>",
+			"comment": "<fest:comment>",
+			"doctype": "<fest:doctype>",
+			"script:s": "<fest:script src=\"\"/>",
+			"include": "<fest:include context=\"\" src=\"\"/>",
+			"insert": "<fest:insert src=\"\"/>",
+
+			"attrs+": "attrs>attr",
+			"choose+": "choose>when+otherwise"
+
+		}
+	}
+}
